@@ -8,7 +8,7 @@ class TestIPApp(unittest.TestCase):
     def test_successful_response(self, mock_get):
         mock_get.return_value.status_code = 200
         mock_get.return_value.json.return_value = {
-            "ip": "1.1.1.1",
+            "ip": "8.8.8.8",
             "city": "Sydney",
             "country": "AU"
         }
