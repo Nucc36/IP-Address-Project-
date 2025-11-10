@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import patch
-from IP_address_code_final import get_ip_info
+from ip_address_code_final import get_ip_info
 
 class TestIPApp(unittest.TestCase):
 
