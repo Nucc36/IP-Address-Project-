@@ -1,6 +1,6 @@
 # IP Address Project
 
-Quadfecta's IP Address Project (Ibrahim, Nick, Tim and Thanh) for showing basic public IP information.
+Quadfecta's IP Address Project (Ibrahim, Nick, Tim and Dat) for showing basic public IP information.
 
 This is a small Python CLI that calls [`ipapi.co`](https://ipapi.co/) and prints details about
 your current public IP address (city, country, ISP, ASN, etc.).
