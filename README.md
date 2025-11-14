@@ -80,3 +80,48 @@ git push -u origin ibby
 
 # then open a Pull Request from ibby -> main on GitHub
 ```
+
+## Troubleshooting
+
+### ModuleNotFoundError
+```bash
+# Reinstall dependencies
+pip install -r requirements.txt
+```
+
+### Port already in use
+```bash
+# Use a different port
+set FLASK_PORT=5001
+python run.py
+```
+
+### Connection issues
+- Check your internet connection
+- Verify ipapi.co API is accessible
+- Check firewall settings
+
+## Rate Limiting
+
+The ipapi.co API has rate limits for free usage. If you hit the rate limit, you'll receive an error message. Wait a few minutes before trying again.
+
+## Data Source
+
+This application uses **ipapi.co** for IP geolocation data. For more information, visit:
+https://ipapi.co/
+
+### Enhancement Features
+-> Build a Backend Flask API and Output Formatting Options ​
+
+🌐 Web Interface - Beautiful, responsive web UI​
+
+🖥️ CLI Tool - Command-line interface for quick lookups​
+
+📍 Geolocation - Get detailed location information for any IP​
+
+⚡ Fast & Reliable - Powered by ipapi.co API​
+
+🎨 Modern Design - Clean, user-friendly interface
+
+
+
