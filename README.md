@@ -110,7 +110,7 @@ The ipapi.co API has rate limits for free usage. If you hit the rate limit, you'
 This application uses **ipapi.co** for IP geolocation data. For more information, visit:
 https://ipapi.co/
 
-### Enhancement Features
+### Enhancement Features (Future)
 -> Build a Backend Flask API and Output Formatting Options ​
 
 🌐 Web Interface - Beautiful, responsive web UI​
