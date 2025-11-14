@@ -80,3 +80,28 @@ git push -u origin ibby
 
 # then open a Pull Request from ibby -> main on GitHub
 ```
+
+### Connection issues
+- Check your internet connection
+- Verify ipapi.co API is accessible
+- Check firewall settings
+
+## Rate Limiting
+The ipapi.co API has rate limits for free usage. If you hit the rate limit, you'll receive an error message. Wait a few minutes before trying again.
+
+## Data Source
+This application uses **ipapi.co** for IP geolocation data. For more information, visit:
+https://ipapi.co/
+
+## Privacy
+This application:
+- Does not store any search history
+- Does not collect personal information
+- Only queries public IP geolocation data
+- Does not track users
+
+## Support
+For issues or questions:
+1. Check the troubleshooting section above
+2. Verify your internet connection
+3. Check ipapi.co status page.
